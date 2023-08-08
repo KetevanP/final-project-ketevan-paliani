@@ -20,11 +20,11 @@ header{
     align-items: center;
     justify-content: space-around;
     img{
-    width: 180px;
-    display: inline-block;
-    vertical-align: top;
+        width: 180px;
+        display: inline-block;
+        vertical-align: top;
     }
-        nav{
+    nav{
         display: inline-block;
         li{
             display: inline-block;
@@ -70,6 +70,16 @@ header{
             color: #fff;
         }
     }
+    .burger{
+        width: 46px;
+        height: 46px;
+        background-color: #EFD372;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        display: none;
+    }
 }
 .homepage1{
     background-image: url(../images/1.png);
@@ -81,7 +91,7 @@ header{
     display: flex;
     align-items: center;
     h1{
-        width: 530px;
+        width: 330px;
         color: #274C5B;
         font-family: Roboto;
         font-size: 70px;
@@ -99,7 +109,7 @@ header{
     margin-top: 75px;
     background-color: #f9f8f8;
     .info{
-        width: 702px;
+        width: 600px;
         h2{
             @include headertext();
         }
@@ -131,7 +141,7 @@ header{
     align-items: center;
     margin-top: 75px;
     .info{
-        width: 700px;
+        width: 600px;
         h4{
             color: #7EB693;
             font-family: Yellowtail;
@@ -243,7 +253,7 @@ header{
             text-align: center;
         }
         p{
-            width: 780px;
+            width: 580px;
             @include maintext();
             margin-top: 20px;
             text-align: center;
@@ -348,7 +358,7 @@ footer{
         a{
             color: #525C60;
             font-family: Open Sans;
-            font-size: 18px;
+            font-size: 15px;
             font-style: normal;
             font-weight: 400;
             line-height: 272.9%; /* 49.122px */
