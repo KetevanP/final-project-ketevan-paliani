@@ -9,6 +9,7 @@
     href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="../css/reset.css">
     <link rel="stylesheet" href="../css/about.css">
+    <link rel="stylesheet" href="../css/aboutmedia.css">
 </head>
 <body>
     <header>
@@ -22,34 +23,87 @@
                     <a>ჩვენს შესახებ</a>
                 </li>
                 <li>
-                    <a href="../pages/services.html">სერვისები</a>
+                    <a href="services.html">სერვისები</a>
                 </li>
                 <li>
-                    <a href="../pages/news.html">სიახლე</a>
+                    <a href="news.html">სიახლე</a>
                 </li>
                 <li>
-                    <a href="../pages/contact.html">კონტაქტი</a>
+                    <a href="contact.html">კონტაქტი</a>
                 </li>
             </ul>
         </nav>
+        <div class="burger">
+            <i class="fa-solid fa-bars fa-2xl" style="color: #000000;"></i>
+        </div>
         <form action="/action_page.php">
             <input type="text" de name="search">
             <button type="submit"><i class="fa-solid fa-magnifying-glass fa-2xl"></i></button>
         </form>
-        <a href="">
+        <a href="pages/login.html">
             <div class="account">
                 <i class="fa-regular fa-user fa-2xl"></i>
             </div>
         </a>
-        
     </header>
-    <section class="homepage6">
+    <section class="aboutpage1">
+        <h2>ჩვენს შესახებ</h2>
+    </section>
+    <section class="aboutpage2">
+        <div class="info">
+            <h4>ჩვენს შესახებ</h4>
+            <h2>კომპანიის მიზნები</h2>
+            <p>დღესდღეობით ბევრი ადამიანი ცხოვრობს არჯანმრთელი ცხოვრებით, რაც მათ ჯანმრთელობას აზიანებს. ჩვენი კომპანია დაარსდა, რათა აღმოეფხვრა ეს პრობლემა და ადამიანებისთვის მიაწოდოს სწორი ინფორმაცია ჯანსაღი ცხოვრების შესახებ.</p>    
+            <p>ჯანსაღი ცხოვრების წესის პრინციპების გათვალისწინება აგვარიდებს იმ ყოფით თუ ემოციურ პრობლემებს, რაც სტატისტიკურად ძალიან ბევრ ადამიანს ემართება. ჯანსაღი ცხოვრება ახანგრძლივებს სიცოცხლის ხანგრძლივობას, აგარიდებთ ზოგიერთი დაავადებების განვითარებას, მაგალითად, 2020 წელს ჩატარებულ კვლევაში, მკვლევარებმა დაადგინეს, რომ ხილისა და ბოსტნეულის ყოველდღიურად მიღება დაკავშირებულია ტიპი 2 დიაბეტის განვითარების 25 პროცენტით დაბალ რისკთან.</p>
+        </div>
+        <img src="../images/a2.png">
+    </section>
+    <section class="aboutpage3">
+        <img src="../images/a3.png">
+        <div class="info">
+            <h4>რატომ ჩვენ?</h4>
+            <h2>ჩვენ ხელს ვუწყობთ ადამიანებს დატკბნენ ჯანსაღი ცხოვრებით</h2>
+            <p>ჩვენი კომპანია მომხმარებელს უქმნის კომფორტულ გარემოს. მომხმარებელს ერთ პლათფორმაზე შეუძლია შეიძინოს ნატურალური პროდუქტები, დანიშნოს შეხვედრა ჩვენს ექიმებთან და გაიაროს მათთან კონსულტაცია ან ჩვენი ტრენერების დახმარებით დაიწყოს სწორად ვარჯიში.</p>
+        </div>
+    </section>
+    <section class="aboutpage4">
+        <div class="header">
+            <h4>გუნდი</h4>
+            <h2>ჩვენი ექსპერტები</h2>
+        </div>
+        <div class="team">
+            <img src="../images/a4.1.png">
+            <img src="../images/a4.2.png">
+            <img src="../images/a4.3.png">
+        </div>
+    </section>
+    <section class="aboutpage5">
+        <div class="services">
+            <h4>შეთავაზებები</h4>
+            <a href="services.html"><i class="fa-solid fa-arrow-right fa-2xl" style="color: #ffffff;"></i></a>
+        </div>
+        <div class="offer">
+            <div class="card">
+                <img src="../images/4.1.png">
+                <h3>მაღაზია</h3>
+            </div>
+            <div class="card">
+                <img src="../images/4.2.jpg">
+                <h3>ვარჯიში</h3>
+            </div>
+            <div class="card">
+                <img src="../images/4.3.jpg">
+                <h3>კონსულტაცია</h3>
+            </div>
+        </div>
+    </section>
+    <section class="aboutpage6">
         <div class="card">
             <h2>შემოგვიერთდი დღესვე, რათა მიიღო ინფორმაცია სიახლეებზე</h2>
-            <a href="../pages/signUp.html">
+            <a href="pages/signUp.html">
                 <button type="submit">შესვლა</button>
             </a>
-            <a href="../pages/login.html">
+            <a href="pages/login.html">
                 <button type="submit">რეგისტრაცია</button>
             </a>
         </div>
@@ -78,23 +132,24 @@
             <nav>
                 <ul>
                     <li>
-                        <a href="../index.html">მთავარი</a>
+                        <a>მთავარი</a>
                     </li>
                     <li>
-                        <a>ჩვენს შესახებ</a>
+                        <a href="pages/about.html">ჩვენს შესახებ</a>
                     </li>
                     <li>
-                        <a href="../pages/services.html">სერვისები</a>
+                        <a href="pages/services.html">სერვისები</a>
                     </li>
                     <li>
-                        <a href="../pages/news.html">სიახლე</a>
+                        <a href="pages/news.html">სიახლე</a>
                     </li>
                     <li>
-                        <a href="../pages/contact.html">კონტაქტი</a>
+                        <a href="pages/contact.html">კონტაქტი</a>
                     </li>
                 </ul>
             </nav>
         </div>
+
     </footer>
 </body>
 </html>
