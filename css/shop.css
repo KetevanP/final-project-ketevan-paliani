@@ -1,0 +1,201 @@
+header {
+  margin: 69px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+header img {
+  width: 180px;
+  display: inline-block;
+  vertical-align: top;
+}
+header nav {
+  display: inline-block;
+}
+header nav li {
+  display: inline-block;
+}
+header nav a {
+  margin-left: 20px;
+  color: #274C5B;
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+header nav a:hover {
+  color: #476D7D;
+}
+header input[type=text] {
+  border-radius: 36px;
+  border-color: #7EB693;
+  border-width: 1px;
+  height: 56px;
+}
+header button {
+  width: 56px;
+  height: 56px;
+  border-width: 0px;
+  border-radius: 50%;
+  background-color: #7EB693;
+}
+header button i {
+  color: #fff;
+}
+header .account {
+  width: 56px;
+  height: 56px;
+  background-color: #274C5B;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+header .account i {
+  color: #fff;
+}
+header .burger {
+  width: 46px;
+  height: 46px;
+  background-color: #EFD372;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  display: none;
+}
+
+.shoppage1 {
+  width: 100%;
+  background-image: url(../images/shop1.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.shoppage1 h2 {
+  color: #274C5B;
+  font-family: Roboto;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+.shoppage2 {
+  margin-top: 75px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.shoppage2 img {
+  width: 300px;
+  margin-top: 30px;
+}
+
+.shoppage3 {
+  margin-top: 75px;
+}
+.shoppage3 .card {
+  width: 90%;
+  margin: 0 auto;
+  position: relative;
+  background-image: url(../images/6.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 350px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.shoppage3 .card h2 {
+  width: 600px;
+  color: #FFF;
+  font-family: Roboto;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+.shoppage3 .card button {
+  width: 150px;
+  height: 60px;
+  background-color: #274C5B;
+  border-width: 0px;
+  border-radius: 10px;
+  color: #FFF;
+  font-family: Roboto;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.shoppage3 .card button:hover {
+  background-color: #ffffff;
+  color: #000;
+}
+
+footer {
+  margin-top: 75px;
+  height: 355px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+footer h3 {
+  color: #274C5B;
+  font-family: Roboto;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 24px;
+}
+footer .contact h3 {
+  text-align: right;
+}
+footer .contact h4 {
+  color: #525C60;
+  text-align: right;
+  font-family: Open Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 165%; /* 29.7px */
+}
+footer .contact p {
+  color: #525C60;
+  font-family: Open Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 165.4%; /* 29.772px */
+  text-align: right;
+  margin-bottom: 15px;
+}
+footer .message p {
+  color: #525C60;
+  font-family: Open Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 165.4%; /* 29.772px */
+}
+footer .message .icons {
+  display: flex;
+  justify-content: space-around;
+}
+footer .pages a {
+  color: #525C60;
+  font-family: Open Sans;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 272.9%; /* 49.122px */
+}/*# sourceMappingURL=shop.css.map */
