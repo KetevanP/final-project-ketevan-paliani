@@ -1,0 +1,339 @@
+header {
+  margin: 69px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+header img {
+  width: 180px;
+  display: inline-block;
+  vertical-align: top;
+}
+header nav {
+  display: inline-block;
+}
+header nav li {
+  display: inline-block;
+}
+header nav a {
+  margin-left: 20px;
+  color: #274C5B;
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+header nav a:hover {
+  color: #476D7D;
+}
+header input[type=text] {
+  border-radius: 36px;
+  border-color: #7EB693;
+  border-width: 1px;
+  height: 56px;
+}
+header button {
+  width: 56px;
+  height: 56px;
+  border-width: 0px;
+  border-radius: 50%;
+  background-color: #7EB693;
+}
+header button i {
+  color: #fff;
+}
+header .account {
+  width: 56px;
+  height: 56px;
+  background-color: #274C5B;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+header .account i {
+  color: #fff;
+}
+header .burger {
+  width: 46px;
+  height: 46px;
+  background-color: #EFD372;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  display: none;
+}
+
+.contactpage1 {
+  width: 100%;
+  background-image: url(../images/c1.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contactpage1 h2 {
+  color: #274C5B;
+  font-family: Roboto;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+.contactpage2 {
+  margin-top: 75px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.contactpage2 img {
+  width: 500px;
+}
+.contactpage2 .info h2 {
+  color: #274C5B;
+  font-family: Roboto;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+.contactpage2 .info .list {
+  margin-top: 14px;
+  display: flex;
+  align-items: center;
+}
+.contactpage2 .info .list .text {
+  margin-left: 20px;
+}
+.contactpage2 .info .list .text p {
+  color: #525C60;
+  font-family: Open Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 165.4%; /* 29.772px */
+  margin-top: 14px;
+}
+.contactpage2 .info .list .text h3 {
+  color: #274C5B;
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+.contactpage2 .info .icons {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+.contactpage2 .info .icons img {
+  width: 56px;
+}
+
+.contactpage3 {
+  width: 90%;
+  margin: 0 auto;
+  background-image: url(../images/c3.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  flex-direction: row-reverse;
+  margin-top: 75px;
+}
+.contactpage3 .card {
+  width: 340px;
+  height: 300px;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-right: 40px;
+  border-radius: 20px;
+}
+.contactpage3 .card h2 {
+  color: #274C5B;
+  font-family: Roboto;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+.contactpage3 .card h3 {
+  color: #274C5B;
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  margin-top: 30px;
+}
+.contactpage3 .card p {
+  color: #525C60;
+  font-family: Open Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 165.4%; /* 29.772px */
+}
+
+.contactpage4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 75px;
+}
+.contactpage4 form {
+  width: 800px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.contactpage4 .message {
+  display: flex;
+  flex-direction: column;
+}
+.contactpage4 .message label {
+  color: #274C5B;
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-top: 20px;
+}
+.contactpage4 .message input {
+  width: 300px;
+  height: 40px;
+  border-radius: 16px;
+  border: 1px solid #7EB693;
+  background: #FFF;
+  margin-top: 15px;
+}
+.contactpage4 .message textarea {
+  width: 700px;
+  height: 200px;
+  border-radius: 16px;
+  border: 1px solid #7EB693;
+  background: #FFF;
+  margin-top: 15px;
+  padding: 20px;
+  color: #ABABAB;
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.contactpage5 {
+  margin-top: 75px;
+}
+.contactpage5 .card {
+  width: 90%;
+  margin: 0 auto;
+  position: relative;
+  background-image: url(../images/6.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 350px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.contactpage5 .card h2 {
+  width: 600px;
+  color: #FFF;
+  font-family: Roboto;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+.contactpage5 .card button {
+  width: 150px;
+  height: 60px;
+  background-color: #274C5B;
+  border-width: 0px;
+  border-radius: 10px;
+  color: #FFF;
+  font-family: Roboto;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.contactpage5 .card button:hover {
+  background-color: #ffffff;
+  color: #000;
+}
+
+footer {
+  margin-top: 75px;
+  height: 355px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+footer h3 {
+  color: #274C5B;
+  font-family: Roboto;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 24px;
+}
+footer .contact h3 {
+  text-align: right;
+}
+footer .contact h4 {
+  color: #525C60;
+  text-align: right;
+  font-family: Open Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 165%; /* 29.7px */
+}
+footer .contact p {
+  color: #525C60;
+  font-family: Open Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 165.4%; /* 29.772px */
+  text-align: right;
+  margin-bottom: 15px;
+}
+footer .message p {
+  color: #525C60;
+  font-family: Open Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 165.4%; /* 29.772px */
+}
+footer .message .icons {
+  display: flex;
+  justify-content: space-around;
+}
+footer .pages a {
+  color: #525C60;
+  font-family: Open Sans;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 272.9%; /* 49.122px */
+}/*# sourceMappingURL=contact.css.map */
